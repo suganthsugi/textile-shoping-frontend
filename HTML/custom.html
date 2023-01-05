@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <style>
+    .nav-shad{
+      -webkit-box-shadow: 0px 5px 20px -1px rgb(240, 237, 243, 1);
+      -moz-box-shadow: 0px 5px 20px -1px rgb(240, 237, 243, 1);
+      box-shadow: 0px 5px 20px -1px rgb(240, 237, 243, 1);
+    }
+  </style>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  <title>CC - Home</title>
+</head>
+<body class="bg-dark">
+  
+<!-- header -->
+
+  <!-- navbar -->
+  <nav class="navbar nav-shad fixed-top navbar-expand-md navbar-dark bg-dark" id="top">
+    <div class="container-fluid mx-3">
+      <a href="/HTML/index.html" class="navbar-brand">
+        <img src="/IMAGES/CC Logo.jpg" alt="CC-logo" class="d-inline-block align-top mx-2" width="30" height="30" loading="lazy">
+         Custom Clothing
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#myNavBar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <div class="collapse navbar-collapse" id="myNavBar">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" href="/HTML/index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="">Today Trending</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav dropdown ms-auto">
+          <a href="" class="nav-link dropdown-toggle mx-2 active" id="lsdd" data-bs-toggle="dropdown" role="button">Login/SignUp</a>
+
+          <div class="dropdown-menu dropdown-menu-dark" aria-labelledby="lsdb">
+            <a href="" class="dropdown-item text-light">Login</a>
+            <a href="" class="dropdown-item text-light">SignUp</a>
+          </div>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- navbar end -->
+
+<!-- header end -->
+
+<br><br><br>
+
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-4">
+            <form style="padding: 20px 0px 10px 50px;" action="/HTML/buy.html">
+                <div class="card bg-dark text-light border-light">
+                    <div class="card-body">
+                      <form>
+                        <div class="form-control custom-file mb-3 bg-dark text-light border-primary">
+                          <input type="file" class="custom-file-input" id="customFile">
+                          <label class="custom-file-label" for="customFile">Logo</label>
+                        </div>
+                        <div class="form-control custom-file mb-3 bg-dark text-light border-primary">
+                          <input type="file" class="custom-file-input" id="customFile">
+                          <label class="custom-file-label" for="customFile">Name</label>
+                        </div>
+                        <div class="form-control form-group mb-3 bg-dark text-light border-primary">
+                          <label for="">Select Dress Color</label><br>
+                          <input type="color" name="" id="">
+                        </div>
+                        <select class="form-control mb-3 bg-dark text-light border-primary">
+                          <option value="">---Select Template---</option>
+                          <option value="">Logo Front, Name Back</option>
+                          <option value="">Name Front, Logo Back</option>
+                          <option value="">Logo Front, No Name</option>
+                          <option value="">Name Front, No Logo</option>
+                        </select>
+                        <select class="form-control mb-3 bg-dark text-light border-primary">
+                          <option value="">---Select Size---</option>
+                          <option value="">Small</option>
+                          <option value="">Medium</option>
+                          <option value="">Large</option>
+                          <option value="">XLarge</option>
+                          <option value="">XXLarge</option>
+                        </select>
+                        <div class="form-group mb-3 bg-dark text-light border-primary">
+                          <label for="">Other Criteria and Suggetions</label>
+                          <textarea class="form-control bg-dark text-light border-primary" id="" rows="4"></textarea>
+                        </div>
+                        <center><a href="/HTML/buy.html"><button class="btn btn-success">Get Custom</button></a></center>
+                      </form>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-lg-4">
+            <img src="/IMAGES/Custom/customdemoLogo.webp" class="img-fluid" alt="Responsive image">
+        </div>
+        <div class="col-lg-4">
+            <img src="/IMAGES/Custom/customdemoName-nbg.png" class="img-fluid" alt="Responsive image">
+        </div>
+    </div>
+</div>
+<hr>
+<div class="container">
+  <div class="card bg-dark text-light border-light">
+    <div class="card-body">
+      <h4 class="h4 text-center">Or Upload your custom 3D model...</h4>
+    </div>
+    <div class="card-body">
+      <div class="form-control custom-file mb-3 bg-dark text-light border-primary">
+        <input type="file" class="custom-file-input" id="customFile">
+        <label class="custom-file-label" for="customFile">3D Model</label>
+      </div>
+      <center><a href="/HTML/buy.html"><button class="btn btn-success btn-block">Get Custom</button></a></center>
+    </div>
+  </div>
+</div>
+<!-- <div class="container">
+    <div class="card bg-dark text-light border-info">
+        <div class="card-body">
+            <center>
+                <video class="w-2" autoplay loop>
+                    <source src="/IMAGES/videoplayback_eZK8XVea.mp4" type="video/mp4">
+                </video>
+            </center>
+        </div>
+        <div class="card-body">
+            
+        </div>
+    </div>
+</div> -->
+<br><br>
+<hr>
+<!-- about site session -->
+<div class="container-fluid bg-dark text-light">
+  <div class="row">
+    <div class="col-md-3">
+      <h5>Why to choose us..?</h5>
+      <ul>
+        <li style="list-style: square;">Accuracy</li>
+        <li style="list-style: square;">Custom</li>
+        <li style="list-style: square;">Quality</li>
+        <li style="list-style: square;">Design</li>
+        <li style="list-style: square;">Fit</li>
+        <li style="list-style: square;">etc.,.</li>
+    </ul>
+    </div>
+
+
+    <div class="col-md-3">
+      <h5>Custom Availabe : </h5>
+      <ol>
+        <li>Images Printed</li>
+        <li>Logo Printed</li>
+        <li>Quality Printing</li>
+        <li>Screen Printing</li>
+        <li>Fill color</li>
+      </ol>
+    </div>
+
+
+    <div class="col-md-6">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-sm-4 mt-4 mb-3">
+            <a href="#"style="color: rgb(255, 255, 255); text-decoration:none;">
+              <i class="fa fa-envelope fa-2x" style="padding-top: 10px;" aria-hidden="true"></i><br>
+              <!-- <span style="padding-top: 20px;">Email</span> -->
+            </a>
+          </div>
+          <div class="col-sm-4 mt-4 mb-3">
+            <a href="#" style="color: rgb(255, 255, 255); text-decoration:none;">
+              <i class="fa fa-facebook fa-2x" style="padding-top: 10px;" aria-hidden="true"></i><br>
+              <!-- <span style="padding-top: 20px;">Email</span> -->
+            </a>
+          </div>
+          <div class="col-sm-4 mt-4 mb-3">
+            <a href="#" style="color: rgb(255, 255, 255); text-decoration:none;">
+              <i class="fa fa-instagram fa-2x" style="padding-top: 10px;" aria-hidden="true"></i><br>
+              <!-- <span style="padding-top: 20px;">Email</span> -->
+            </a>
+          </div>
+          <div class="col-sm-4 mt-4 mb-3">
+            <a href="#" style="color: rgb(255, 255, 255); text-decoration:none;">
+              <i class="fa fa-twitter fa-2x" style="padding-top: 10px;" aria-hidden="true"></i><br>
+              <!-- <span style="padding-top: 20px;">Email</span> -->
+            </a>
+          </div>
+          <div class="col-sm-4 mt-4 mb-3">
+            <a href="#" style="color: rgb(255, 255, 255); text-decoration:none;">
+              <i class="fa fa-linkedin fa-2x" style="padding-top: 10px;" aria-hidden="true"></i><br>
+              <!-- <span style="padding-top: 20px;">Email</span> -->
+            </a>
+          </div>
+          <div class="col-sm-4 mt-4 mb-3">
+            <a href="#" style="color: rgb(255, 255, 255); text-decoration:none;">
+              <i class="fa fa-phone fa-2x" style="padding-top: 10px;" aria-hidden="true"></i><br>
+              <!-- <span style="padding-top: 20px;">Email</span> -->
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- end about site session -->
+
+<hr>
+
+
+
+
+<hr>
+<a href="#top">
+  <button class="btn btn-dark w-100">
+    &copy; 2022 - 2023 CustomClothing | All Rights Reserved
+  </button>
+</a>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
